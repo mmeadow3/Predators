@@ -1,0 +1,21 @@
+{
+    "herbivores": [
+    {
+        "name": "cat",
+        "family": "mammal"
+    },
+    {
+        "name": "platypus",
+        "family": "mammal"
+    },
+    {
+        "name": "guppy",
+        "family": "fish"
+    },    
+    {
+        "name": "ostrich",
+        "family": "bird"
+    }
+
+    ]
+}

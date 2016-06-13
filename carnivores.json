@@ -1,0 +1,21 @@
+{
+    "carnivores": [
+    {
+        "name": "tiger",
+        "family": "mammal"
+    },
+    {
+        "name": "spider",
+        "family": "insect"
+    },
+    {
+        "name": "shark",
+        "family": "fish"
+    },    
+    {
+        "name": "Eagle",
+        "family": "bird of freedom"
+    }
+
+    ]
+}
