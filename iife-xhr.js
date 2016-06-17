@@ -4,7 +4,7 @@ function showCarnivores (carnivores) {
     let outputString = "";
     for (let i = 0; i < carnivores.length; i++) {
         let currentCarnivore = carnivores[i];
-        outputString += `<h1>${currentCarnivore.name}</h1><h3>${currentCarnivore.family}</h3>`;
+        outputString += `<div class="carnivores"> <h1>${currentCarnivore.name}</h1><h3>${currentCarnivore.family}</h3></div>`;
         list.innerHTML = outputString;
      }
 };
@@ -14,7 +14,7 @@ function showHerbivores (herbivores) {
     let outputString = "";
     for (let i = 0; i < herbivores.length; i++) {
         let currentHerbivore = herbivores[i];
-        outputString += `<h1>${currentHerbivore.name}</h1><h3>${currentHerbivore.family}</h3>`;
+        outputString += `<div class="herbivores"> <h1>${currentHerbivore.name}</h1><h3>${currentHerbivore.family}</h3></div>`;
         list.innerHTML = outputString;
     }
 };

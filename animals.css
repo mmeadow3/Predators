@@ -1,0 +1,15 @@
+.carnivores{
+	border: 2px solid black;
+	width: 20%;
+	display: inline-block;
+	margin: 5px 5px;
+	text-align: center;
+}
+
+.herbivores{
+	border:2px solid green;
+	min-width: 20%;
+	display: inline-block;
+	margin: 5px 5px;
+	text-align: center;
+}
